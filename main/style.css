@@ -1,0 +1,136 @@
+body{
+    background-color: #d4c9ad;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navegacao {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 6rem;
+}
+
+.imagem-texto{
+    display: flex;
+    align-items: center;
+    gap: 26rem;
+}
+
+.nomebarba {
+    display: flex;
+    color: white;
+    font-size: 35px;
+}
+
+.imagem{
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+
+.botoes-navegacao ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 5.5rem;
+}
+
+.botoes-navegacao a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.botoes-navegacao a:hover{
+    color: #f58723;
+    transform: scale(1.006);
+    transition: color 0.4s ease;
+}
+
+.intro{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/backg.png);
+    background-position: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro h1{
+    padding-top: 11%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #f58723;
+    font-size: 75px;
+}
+
+.intro h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 45px;
+}
+
+.horario{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 30px;
+    margin: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #000000;
+    background-color: #f58723;
+    border-radius: 40px;
+    margin-top: 7%;
+}
+
+.horario:hover{
+    transform: scale(1.1);
+    transition: transform 0.4s ease, color 0.2s ease, background-color 0.4s ease;
+    color: white;
+    background-color: #f3943c
+}
+
+.sobre{
+    display: flex;
+    text-align: left;
+    margin: 1%;
+    padding: 2rem;
+    color: #000000;
+    background-color: #f1ecdf;
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+.sobre h2{
+    color: #f58723;
+}
+
+.servicos-precos{
+    display: flex;
+    text-align: left;
+    margin: 1%;
+    padding: 2rem;
+    color: #000000;
+    background-color: #f1ecdf;
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+.servicos-precos h2{
+    color: #f58723;
+}
+
+
+
+footer{
+    background-color: #c7ba99;
+}
