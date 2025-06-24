@@ -103,7 +103,7 @@ body{
     display: flex;
     text-align: left;
     margin: 1%;
-    padding: 6rem;
+    padding: 4rem 4rem 4rem 4rem;
     color: #000000;
     background-color: #f1ecdf;
     border-radius: 50px;
@@ -112,21 +112,21 @@ body{
 
 .sobre h2{
     color: #f58723;
+    text-align: center;
 }
 
 .servicos-precos{
-    display: flex;
-    text-align: left;
-    margin: 1%;
     padding: 2rem;
-    color: #000000;
-    background-color: #f1ecdf;
-    border-radius: 50px;
+    color: #ffffff;
+    background-color: #1a1a1a;
     font-size: 18px;
 }
 
-.servicos-precos h2{
+.titulo-preco{
     color: #f58723;
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
 }
 
 .container{
@@ -174,8 +174,8 @@ body{
 
 .imagem-icons{
     display: flex;
-    height: 50px;
-    width: 50px;
+    height: 150px;
+    width: 150px;
 }
 
 .titulos:hover{
@@ -184,8 +184,64 @@ body{
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
+.container-precos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
+.preco-coisas{
+    background-color: #252525; 
+    padding: 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    min-width: 400px;
+    max-width: 450px;
+    width: calc(33.33% - 40px);
+}
+
+.preco-coisas img{
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.preco-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.horario-precos{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #000000;
+    background-color: #f58723;
+    border-radius: 40px;
+    margin-top: 7%;
+    font-size: 13px;
+}
+
+.horario-precos:hover{
+    transform: scale(1.1);
+    transition: transform 0.4s ease, color 0.2s ease, background-color 0.4s ease;
+    color: white;
+    background-color: #f3943c
+}
 
 footer{
-    background-color: #c7ba99;
+    background-color: #000000;
 }
