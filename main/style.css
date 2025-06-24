@@ -103,7 +103,7 @@ body{
     display: flex;
     text-align: left;
     margin: 1%;
-    padding: 2rem;
+    padding: 6rem;
     color: #000000;
     background-color: #f1ecdf;
     border-radius: 50px;
@@ -127,6 +127,61 @@ body{
 
 .servicos-precos h2{
     color: #f58723;
+}
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 80px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.titulos{
+    background-color: #f1ecdf; 
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: 0px 8px 6px -6px #4b4b4b;
+}
+
+.titulos h3{
+    color:#f58723; 
+    text-align: center;
+    font-size: 20px;
+}
+
+.titulos img{
+    width: 30px;  
+    height: 30px; 
+}
+
+.imagem-titulo{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.titulos p{
+    color: #000000;
+    font-size: 0.9rem;
+}
+
+.imagem-icons{
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.titulos:hover{
+    box-shadow: 0px 10px 6px -6px #4b4b4b;
+    transform: scale(1.08);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 
