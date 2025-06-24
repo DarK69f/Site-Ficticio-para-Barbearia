@@ -1,6 +1,7 @@
 body{
     background-color: #d4c9ad;
     margin: 0;
+    padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -213,6 +214,11 @@ body{
     width: 50px;
 }
 
+.preco-coisas:hover{
+    transform: translate(0px, -7px);
+    background-color: #2e2e2e;
+}
+
 .preco-image{
     display: flex;
     align-items: center;
@@ -232,7 +238,7 @@ body{
     background-color: #f58723;
     border-radius: 40px;
     margin-top: 7%;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .horario-precos:hover{
@@ -240,6 +246,17 @@ body{
     transition: transform 0.4s ease, color 0.2s ease, background-color 0.4s ease;
     color: white;
     background-color: #f3943c
+}
+
+.cortando-belo{
+    display: flex;
+    justify-content: center;
+}
+
+.cortando-belo img{
+    height: 350px;
+    width: 700px;
+    border-radius: 40px;
 }
 
 footer{
